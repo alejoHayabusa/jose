@@ -1,0 +1,82 @@
+body {
+    margin: 0px
+}
+hr {
+    position: relative;
+    top: 50px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#fondo {
+    width: 100%;
+    opacity: 0.88;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.219);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+#user {
+    width: 4%;
+    float: right;
+    margin-right: 2%;
+    margin: 1%
+}
+header {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 10px black;
+    font-size: 150%;
+}
+h1 {
+    font-size: 300%;
+}
+#botones {
+    text-align: center;
+    margin-top: 1%;
+}
+.enlaExternos {
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+}
+.enlaExterImage {
+    width: 50%;
+}
+.textImage {
+    width: 100%;
+    margin-top: 8%;
+}
+#enlaceExterUltimo {
+    margin-right: 10%;
+}
+.textImageArticle {
+    float: left;
+    width: 45%;
+}
+.textImageText {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.textImageImage {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.textImageText > h2 {
+    text-align: center;
+}
+@media (max-width: 800px) {
+    header {
+        font-size: 80%;
+        top: 10%;
+        width: 50%;
+    }
+}

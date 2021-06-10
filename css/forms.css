@@ -1,0 +1,49 @@
+form {
+    width: 100%;
+    text-align: center;
+}
+fieldset {
+    padding: 10px;
+    border: 3px solid #cccccc;
+    width: 60%;
+    margin: auto;
+    border-radius: 5%;
+    background-color: #EFEFEF;
+}
+input {
+    margin-top: 5%;
+    padding: 2%;
+    text-align: left;
+    width: 80%;
+    border: 0px solid black;
+    border-bottom: 2px solid black;
+}
+a {
+    float: right;
+}
+img {
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 32%;
+}
+input[type="submit"], #boton {
+    text-align: center;
+    font-size: 110%;
+    border: 0px solid black;
+    border-radius: 5%;
+    background-color: #d6cece;
+}
+input[type="submit"] {
+    margin-top: 15%;
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 60%;
+}
+input[type="checkbox"] {
+    width: 3%;
+}
+@media (max-width: 800px) {
+    fieldset {
+        width: 90%;
+    }
+}
